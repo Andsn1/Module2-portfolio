@@ -1,0 +1,175 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  background-color: #242424;
+  color: #e8e6e6
+}
+
+header {
+  color: sienna;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #242424;
+  z-index: 20;
+  padding: 0 100px;
+}
+
+header .logo {
+  font-size: xx-large;
+  background-color: bisque;
+  border-bottom: sienna 3px solid;
+  text-decoration: none;
+  padding: 0 40px;
+  color: sienna;
+  font-weight: bold;
+}
+
+img{
+width: 400%;
+max-width:400px;
+height: 500px;
+margin: 10px;
+}
+
+header a {
+  color: rgb(224, 221, 221);
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-size: 15px
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 25px 0 25px;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-banner {
+  margin-top: 60px;
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+  background-image: url("../images/hero\ image1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-banner .hero-header {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  background: powderblue;
+  font-size: xx-large;
+  padding: 0 20px;
+}
+
+.page-cover{
+  background-color: bisque;
+  padding-top: 20px;
+}
+
+.page-section {
+  display: flex;
+  text-align: center;
+  align-items: start;
+  justify-content: left;
+  padding: 40px 0;
+ }
+
+.section-side{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.section-side h2{
+text-align: center;
+font-size: bold;
+}
+
+.section-side img{
+width: 500%;
+max-width: 1000px;
+height:500pxS ;
+margin: 5px;
+background-size: cover;
+background-position: center;
+}
+
+.page-section h2 {
+  padding-right: 20px;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: right;
+  margin: 0;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.page-section .section-side {
+  width: 60%;
+  border-left: 2px solid #e6e3e3;
+  padding-left: 20px;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.page-section .section-side p {
+  margin: 0;
+}
+
+.page-section .section-side img {
+  width: 100%;
+}
+
+.page-section.contact a {
+  color: sienna;
+}
+
+.page-section img{
+display: inline-block;
+margin-bottom: 10px;
+width: 100%;
+max-width: 400px;
+}
+
+/* Standard: Top Center */
+.box-flex {
+  display:inline-table;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content:center;
+  position: relative;
+  padding:0;
+  text-align: center;
+  font-size: 1.2rem;
+  word-break: break-word;
+  background-color:#333333 ;
+  color: #d9d9d9;
+}
+
+.box-grid {
+  display:grid;
+   grid-template-columns:30% 30%;
+  align-items:center;
+  grid-gap: 1rem;
+  justify-items:center;
+  margin: 0;
+  padding: 0;
+}
